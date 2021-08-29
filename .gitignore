@@ -4,4 +4,5 @@ node_modules
 !/example.env
 /.svelte-kit
 /build
+/build_to_prod.sh
 
