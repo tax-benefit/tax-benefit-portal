@@ -19,7 +19,7 @@
   </li>
   <li>
     <a href="https://us.tax-benefit.org"
-      >USA<small class="italic">(in progress)</small></a
+      >USA <small class="italic">(in progress)</small></a
     >
   </li>
 </ul>
