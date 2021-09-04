@@ -17,12 +17,9 @@
       >United Kingdom <small class="italic">(in progress)</small></a
     >
   </li>
-  <!-- <li>
+  <li>
     <a class="link" href="https://us.tax-benefit.org"
       >USA <small class="italic">(in progress)</small></a
     >
-  </li> -->
-  <li>
-    USA <small class="italic">(soon)</small>
   </li>
 </ul>
