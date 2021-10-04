@@ -26,4 +26,5 @@
 <svelte:head>
   <html lang={$locale} />
 </svelte:head>
+
 <slot />
