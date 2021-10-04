@@ -1,4 +1,5 @@
 import staticAdapter from "@sveltejs/adapter-static"
+import precompileIntl from "svelte-intl-precompile/sveltekit-plugin.js"
 import preprocess from "svelte-preprocess"
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -11,6 +12,10 @@ const config = {
 
     // hydrate the <div id="svelte"> element in src/app.html
     target: "#svelte",
+
+    vite: {
+      plugins: [precompileIntl("locales")],
+    },
   },
 
   // Consult https://github.com/sveltejs/svelte-preprocess

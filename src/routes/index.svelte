@@ -1,6 +1,30 @@
+<script lang="ts">
+  import { locale, t } from "svelte-intl-precompile"
+
+  const languageLabelFlagTriples = [
+    ["en-US", "English", "🇬🇧"],
+    ["fr-FR", "Français", "🇫🇷"],
+  ]
+</script>
+
 <div class="navbar bg-neutral text-neutral-content">
-  <div class="flex-1">
-    <span class="font-bold text-lg">Tax and Benefit Simulators</span>
+  <div class="navbar-start">
+    <span class="font-bold text-lg">{$t("Tax and Benefit Simulators")}</span>
+  </div>
+
+  <div class="navbar-end">
+    <div class="flex items-stretch">
+      <div class="dropdown dropdown-end">
+        <select
+          class="select select-bordered select-ghost"
+          bind:value={$locale}
+        >
+          {#each languageLabelFlagTriples as [language, label, flag]}
+            <option value={language}>{flag} {label}</option>
+          {/each}
+        </select>
+      </div>
+    </div>
   </div>
 </div>
 
