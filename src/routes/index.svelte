@@ -9,7 +9,7 @@
 
 <div class="navbar bg-neutral text-neutral-content">
   <div class="navbar-start">
-    <span class="font-bold text-lg">{$t("Tax and Benefit Simulators")}</span>
+    <span class="font-bold text-lg">{$t("site.title")}</span>
   </div>
 
   <div class="navbar-end">
@@ -31,10 +31,10 @@
 <div class="hero bg-base-200">
   <div class="hero-content">
     <div class="max-w-md">
-      <h1 class="mb-5 text-5xl">
-        Simulate the tax and benefit system of your country
+      <h1 class="mb-5 text-5xl text-center">
+        {$t("hero.title")}
       </h1>
-      <p>Select your tax and benefit system:</p>
+      <p>{$t("Select tax-benefit system")}</p>
       <ul class="list-disc list-inside">
         <li>
           <a class="link link-primary" href="https://fr.tax-benefit.org"
