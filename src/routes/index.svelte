@@ -38,31 +38,37 @@
       <ul class="list-disc list-inside">
         <li>
           <a class="link link-primary" href="https://fr.tax-benefit.org"
-            >France <div class="badge badge-primary badge-sm">alpha</div></a
+            >{$t("France")}
+            <div class="badge badge-primary badge-sm">{$t("alpha")}</div></a
           >
         </li>
         <!-- <li>
           <a class="link" href="https://sn.tax-benefit.org"
-            >Senegal <div class="badge badge-sm badge-warning">in progress</div></a
+            >{$t("Senegal")} <div class="badge badge-sm badge-warning">{$t("in progress")}</div></a
           >
         </li> -->
         <li>
           <a class="link" href="https://tn.tax-benefit.org"
-            >Tunisia <div class="badge badge-sm badge-warning">
-              in progress
+            >{$t("Tunisia")}
+            <div class="badge badge-sm badge-warning">
+              {$t("in progress")}
             </div></a
           >
         </li>
         <li>
           <a class="link" href="https://uk.tax-benefit.org"
-            >United Kingdom <div class="badge badge-sm badge-warning">
-              in progress
+            >{$t("United Kingdom")}
+            <div class="badge badge-sm badge-warning">
+              {$t("in progress")}
             </div></a
           >
         </li>
         <li>
           <a class="link" href="https://us.tax-benefit.org"
-            >USA <div class="badge badge-sm badge-warning">in progress</div></a
+            >{$t("United States of America")}
+            <div class="badge badge-sm badge-warning">
+              {$t("in progress")}
+            </div></a
           >
         </li>
       </ul>

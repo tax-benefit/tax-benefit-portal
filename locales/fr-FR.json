@@ -1,5 +1,12 @@
 {
-  "hero.title": "Simulez le système socio-fiscal de votre pays.",
+  "alpha": "alpha",
+  "France": "France",
+  "hero.title": "Simulez le système socio-fiscal de votre pays",
+  "in progress": "en développement",
   "Select tax-benefit system": "Choisissez votre système socio-fiscal :",
-  "site.title": "Simulateurs socio-fiscaux"
+  "Senegal": "Sénégal",
+  "site.title": "Simulateurs socio-fiscaux",
+  "Tunisia": "Tunisie",
+  "United Kingdom": "Royaume uni (UK)",
+  "United States of America": "États unis d'Amérique (USA)"
 }

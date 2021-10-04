@@ -1,5 +1,12 @@
 {
-  "hero.title": "Simulate the tax and benefit system of your country.",
+  "alpha": "alpha",
+  "France": "France",
+  "hero.title": "Simulate the tax and benefit system of your country",
+  "in progress": "in progress",
   "Select tax-benefit system": "Select your tax and benefit system:",
-  "site.title": "Tax and Benefit Simulators"
+  "Senegal": "Senegal",
+  "site.title": "Tax and Benefit Simulators",
+  "Tunisia": "Tunisia",
+  "United Kingdom": "United Kingdom (UK)",
+  "United States of America": "United States of America (USA)"
 }
