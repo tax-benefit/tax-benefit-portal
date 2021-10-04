@@ -14,16 +14,11 @@
 
   <div class="navbar-end">
     <div class="flex items-stretch">
-      <div class="dropdown dropdown-end">
-        <select
-          class="select select-bordered select-ghost"
-          bind:value={$locale}
-        >
-          {#each languageLabelFlagTriples as [language, label, flag]}
-            <option value={language}>{flag} {label}</option>
-          {/each}
-        </select>
-      </div>
+      <select class="select select-ghost" bind:value={$locale}>
+        {#each languageLabelFlagTriples as [language, label, flag]}
+          <option value={language}>{flag} {label}</option>
+        {/each}
+      </select>
     </div>
   </div>
 </div>
